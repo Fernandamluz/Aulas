@@ -8,7 +8,6 @@ int var2;
  { 
     pinMode(botao1, INPUT);
   	pinMode(botao2, INPUT); 
-    pinMode (led2, OUTPUT);
    	Serial.begin(9600);
  }
  
