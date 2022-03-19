@@ -1,0 +1,27 @@
+
+int botaozinho = 7;//
+int led = 10;//
+bool estadoLed = 0;//
+
+void setup()
+{
+  pinMode(led,OUTPUT);//
+  pinMode(botaozinho, INPUT);//
+}
+
+void loop()
+{
+  digitalWrite(10,HIGH);
+  delay(0);
+  digitalWrite(10,LOW);
+  delay(0);
+  
+  estadobotaozinho=digitalRead(botaozinho);//
+  if(estadobotaozinho==HIGH){//
+    digitalWrite(led,LOW);//
+    delay(100);//
+ }
+  else{//
+    digitalWrite(led,HIGH);//
+    delay(100);//
+ }
